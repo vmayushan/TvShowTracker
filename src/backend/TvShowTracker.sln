@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TvShowTracker.WebApi", "TvShowTracker.WebApi\TvShowTracker.WebApi.csproj", "{655DA6F0-F0E2-4DF7-BDFB-1730FFE0B4DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TvShowTracker.Domain", "TvShowTracker.Domain\TvShowTracker.Domain.csproj", "{3C6F9C96-84BD-4233-B62F-0B8BB6F7EE1D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TvShowTracker.DataAccess", "TvShowTracker.DataAccess\TvShowTracker.DataAccess.csproj", "{FAC74E5E-17C1-4608-8CA5-C090BF960C3A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TvShowTracker.UnitTests", "TvShowTracker.UnitTests\TvShowTracker.UnitTests.csproj", "{76126C4F-C560-456D-A62F-D834780DF686}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{655DA6F0-F0E2-4DF7-BDFB-1730FFE0B4DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{655DA6F0-F0E2-4DF7-BDFB-1730FFE0B4DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{655DA6F0-F0E2-4DF7-BDFB-1730FFE0B4DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{655DA6F0-F0E2-4DF7-BDFB-1730FFE0B4DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C6F9C96-84BD-4233-B62F-0B8BB6F7EE1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C6F9C96-84BD-4233-B62F-0B8BB6F7EE1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C6F9C96-84BD-4233-B62F-0B8BB6F7EE1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C6F9C96-84BD-4233-B62F-0B8BB6F7EE1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAC74E5E-17C1-4608-8CA5-C090BF960C3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAC74E5E-17C1-4608-8CA5-C090BF960C3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAC74E5E-17C1-4608-8CA5-C090BF960C3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAC74E5E-17C1-4608-8CA5-C090BF960C3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76126C4F-C560-456D-A62F-D834780DF686}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76126C4F-C560-456D-A62F-D834780DF686}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76126C4F-C560-456D-A62F-D834780DF686}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76126C4F-C560-456D-A62F-D834780DF686}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

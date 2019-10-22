@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\TvShowTracker.DataAccess\TvShowTracker.DataAccess.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="3.0.0" />
+      <PackageReference Include="MongoDB.Driver" Version="2.9.2" />
+      <PackageReference Include="Swashbuckle.AspNetCore" Version="5.0.0-rc4" />
+    </ItemGroup>
+
+</Project>
